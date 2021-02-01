@@ -7,6 +7,9 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
 
+### Added
+- Sample json file
+
 ## [0.0.1] - 2021-01-25
 
 ### Added

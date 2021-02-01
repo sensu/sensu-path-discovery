@@ -74,19 +74,33 @@ The file needs to be in JSON in the following format:
 
 ```
 [
-  {
-    "path": "/webapp",
-    "subs": [
-      "nginx",
-      "webapp"
-    ]
-  },
-  {
-    "path": "/var/lib/mysql",
-    "subs": [
-      "mysql"
-    ]
-  }
+	{
+		"path": "/webapp",
+		"subs": [
+			"nginx",
+			"webapp"
+		]
+	},
+	{
+		"path": "/var/lib/mysql",
+		"subs": [
+			"mysql"
+		]
+	},
+	{
+		"path": "/app/tomcat7",
+		"subs": [
+			"tomcat-common",
+			"tomcat7"
+		]
+	},
+	{
+		"path": "/app/tomcat8",
+		"subs": [
+			"tomcat-common",
+			"tomcat8"
+		]
+	}
 ]
 ```
 

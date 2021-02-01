@@ -1,0 +1,29 @@
+[
+	{
+		"path": "/webapp",
+		"subs": [
+			"nginx",
+			"webapp"
+		]
+	},
+	{
+		"path": "/var/lib/mysql",
+		"subs": [
+			"mysql"
+		]
+	},
+	{
+		"path": "/app/tomcat7",
+		"subs": [
+			"tomcat-common",
+			"tomcat7"
+		]
+	},
+	{
+		"path": "/app/tomcat8",
+		"subs": [
+			"tomcat-common",
+			"tomcat8"
+		]
+	}
+]
